@@ -21,7 +21,7 @@ export function ImageGallery() {
                 </div>
                 <div className="col-md-4 px-2">
                     <div className="my-3">
-                        <img src={Gallery3} className="img-fluid" alt="" />
+                        <img src={Gallery6} className="img-fluid" alt="" />
                     </div>
                     <div className="my-3">
                         <img src={Gallery4} className="img-fluid" alt="" />
@@ -32,7 +32,7 @@ export function ImageGallery() {
                         <img src={Gallery5} className="img-fluid" alt="" />
                     </div>
                     <div className="my-3">
-                        <img src={Gallery6} className="img-fluid" alt="" />
+                        <img src={Gallery3} className="img-fluid" alt="" />
                     </div>
                 </div>
             </div>

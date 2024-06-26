@@ -5,7 +5,7 @@ import AboutImg from '../utils/img/about-img.jpg';
 import { Link } from 'react-router-dom';
 import { ImageGallery } from '../components/ImageGallery';
 import { ContactInfo } from '../components/ContactInfo';
-import ContactImage from '../utils/img/contact-img.jpg';
+
 
 function Home() {
     return (
@@ -15,7 +15,7 @@ function Home() {
                     <div className='row'>
                         <div className='col-sm-6 d-flex d-sm-block flex-column align-items-center'>
                             <h2 className='mb-0 text-black fw-bold'>Welcome To</h2>
-                            <h1 className='mb-5 text-black fw-bold text-center text-sm-start'>React Restaurant</h1>
+                            <h1 className='mb-5 text-black fw-bold text-center text-sm-start'>SCEM FOODCOURT</h1>
                             <MenuBtn />
                         </div>
                     </div>
@@ -46,16 +46,16 @@ function Home() {
                             <h3 className='fs-2 mb-5'>Food</h3>
                             <ul className='px-0'>
                                 <li className='d-flex justify-content-between'>
-                                    <p className='fs-3 mx-2'>English Breakfast</p>
-                                    <p className='fs-3 mx-2 text-success fw-nold'>£12</p>
+                                    <p className='fs-3 mx-2'>Biryani</p>
+                                    <p className='fs-3 mx-2 text-success fw-nold'>₹80</p>
                                 </li>
                                 <li className='d-flex justify-content-between'>
-                                    <p className='fs-3 mx-2'>Spicy Beef</p>
-                                    <p className='fs-3 mx-2 text-success fw-nold'>£15</p>
+                                    <p className='fs-3 mx-2'>Special Meal</p>
+                                    <p className='fs-3 mx-2 text-success fw-nold'>₹60</p>
                                 </li>
                                 <li className='d-flex justify-content-between'>
-                                    <p className='fs-3 mx-2'>Saghetti Bolognese</p>
-                                    <p className='fs-3 mx-2 text-success fw-nold'>£11</p>
+                                    <p className='fs-3 mx-2'>Parota</p>
+                                    <p className='fs-3 mx-2 text-success fw-nold'>₹45</p>
                                 </li>
                             </ul>
                         </div>
@@ -64,15 +64,15 @@ function Home() {
                             <ul className='px-0'>
                                 <li className='d-flex justify-content-between'>
                                     <p className='fs-3 mx-2'>Coffee</p>
-                                    <p className='fs-3 mx-2 text-success fw-nold'>£2</p>
+                                    <p className='fs-3 mx-2 text-success fw-nold'>₹20</p>
                                 </li>
                                 <li className='d-flex justify-content-between'>
                                     <p className='fs-3 mx-2'>Juice</p>
-                                    <p className='fs-3 mx-2 text-success fw-nold'>£1</p>
+                                    <p className='fs-3 mx-2 text-success fw-nold'>₹50</p>
                                 </li>
                                 <li className='d-flex justify-content-between'>
                                     <p className='fs-3 mx-2'>Spirits</p>
-                                    <p className='fs-3 mx-2 text-success fw-nold'>£5</p>
+                                    <p className='fs-3 mx-2 text-success fw-nold'>₹50</p>
                                 </li>
                             </ul>
                         </div>
@@ -90,7 +90,7 @@ function Home() {
                             <ContactInfo />
                         </div>
                         <div className='col-lg-6 d-flex justify-content-center'>
-                            <img src={ContactImage} className='img-fluid w-50' alt="" />
+                            <img src={AboutImg} className='img-fluid w-50' alt="" />
                         </div>
                     </div>
                 </div>
